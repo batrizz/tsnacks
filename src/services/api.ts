@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'http://snacksapi.azurewebsites.net'
+  baseURL: process.env.REACT_PUBLIC_API_URL
 })
