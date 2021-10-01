@@ -1,0 +1,17 @@
+.resultsContainer {
+  background: var(--gray-50);
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+
+  border-top: 1px solid var(--gray-150);
+
+  span {
+    padding: 0.25rem 4.5rem 0.25rem 3.5rem;
+  }
+
+  .spanDivider {
+    border-right: 1px solid var(--gray-150);
+  }
+}
